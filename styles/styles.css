@@ -114,6 +114,10 @@ $#$#$#$# START OF GENERAL STYLES $#$#$#$#
   .default {
     color: black;
   }
+
+  .github {
+     content: "GitHub Profile";
+  }
   
   .default:hover {
     background: #e7e7e7;
@@ -270,9 +274,8 @@ $#$#$#$# START OF GENERAL STYLES $#$#$#$#
     display: inline-block;
     width: 500px;
     height: 400px;
-    margin: 5px;
+    margin: 10px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */   
-    border: 5px solid #000000;
   }
   
   /* This container is needed to position the front and back side */
@@ -288,7 +291,7 @@ $#$#$#$# START OF GENERAL STYLES $#$#$#$#
   /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-    border: 1px solid black;
+    border: 2px solid black;
   }
   
   /* Position the front and back side */
@@ -304,6 +307,7 @@ $#$#$#$# START OF GENERAL STYLES $#$#$#$#
   .flip-card-front {
     background-color: #ffffff;
     color: black;
+    border: 2px solid black;
   }
   
   /* Style the back side */
